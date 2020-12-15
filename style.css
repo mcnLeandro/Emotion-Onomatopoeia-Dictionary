@@ -1,0 +1,32 @@
+
+.category {
+    /* RecursionではBootstrapのbtnのbackgroundcolorが邪魔していたのでbtnのcssをこのクラスにコピペ(全てではない)して対応した */
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+}
+.white{color: #fff;}
+
+.bg-white  {background-color: #fff;}
+.bg-red    {background-color: red;}
+.bg-orange {background-color: orange;}
+.bg-blue   {background-color: #0587ec;}
+.bg-grey   {background-color: grey;}
+.bg-yellow {background-color: #fecf02;}
+.bg-pink   {background-color: #ff7eaf;}
+.bg-brown  {background-color: #c5a06d;}
+.bg-green  {background-color: #4fb725;}
+.bg-purple {background-color: #6f5bff;}
+.bg-beige  {background-color: beige;}
+
+@media screen and (min-width:430px) {
+    .onomatopoeiaCard{
+        display:flex;
+    }
+    .onomatopoeiaCard img{
+        width: 40%;
+    }
+}
